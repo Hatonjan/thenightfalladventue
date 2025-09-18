@@ -26,6 +26,7 @@ function setup() {
 	floorY = height - 50;  
 	lives = 3;
 	startGame();
+	flagPole.isReached = false;
 }
 
 function draw() {   

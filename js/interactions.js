@@ -30,7 +30,7 @@ function loadButtons() {
 	gameOverSound = loadSound("./assets/snd/gameOverSound.m4a");
 	gameOverSound.setVolume(0.1);
 	
-	victorySound = loadSound("./assets/snd/victorySound.wav");
+	victorySound = loadSound("./assets/snd/VictorySound.wav");
 	victorySound.setVolume(0.5);
 
 	treasureChestSound = loadSound("./assets/snd/chestSound.m4a");

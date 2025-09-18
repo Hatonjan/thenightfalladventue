@@ -88,10 +88,10 @@ function loadEnvironment() {
 
 
 	// collectable animation images
-	coinImg1 = loadImage("assets/img/environment/coin1.png");
-	coinImg2 = loadImage("assets/img/environment/coin2.png");
-	coinImg3 = loadImage("assets/img/environment/coin3.png");
-	coinImg4 = loadImage("assets/img/environment/coin4.png");
+	coinImg1 = loadImage("./assets/img/environment/coin1.png");
+	coinImg2 = loadImage("./assets/img/environment/coin2.png");
+	coinImg3 = loadImage("./assets/img/environment/coin3.png");
+	coinImg4 = loadImage("./assets/img/environment/coin4.png");
 
 }
 

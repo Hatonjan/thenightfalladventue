@@ -14,7 +14,9 @@ The Nightfall Adventure is a video game created during my Introduction to Progra
 `→` Strike to the right
 
 
-## References
+### License & Credits 
+
+## Libraries
 -p5.js references (2024). available at https://p5js.org/reference/
 
  ## Sound Effects
@@ -46,6 +48,7 @@ The Nightfall Adventure is a video game created during my Introduction to Progra
 
 ## Pixel art
 Every sprite, tile, and animation in The Nightfall Adventure was Created using LibreSprite, an open-source pixel art editor. The background image was generated with Microsoft Copilot AI to evoke the game’s mood and visual depth.
-     
+
+## License     
 © 2025 Jonathan Scott. All rights reserved.
 Fonts, icons, and libraries used are open-source or properly licensed. AI-generated assets were created using tools that allow commercial use.

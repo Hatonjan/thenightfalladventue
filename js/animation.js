@@ -1,3 +1,4 @@
+// A helper function to create the video game animations
 class Animation {
   constructor(x, y, speed, first, second, third, fourth) {
     this.x = x;

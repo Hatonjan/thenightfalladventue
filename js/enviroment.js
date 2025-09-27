@@ -150,7 +150,7 @@ function drawGround() {
 		image(groundImg, -128 + 192*i, floorY, 192,50)
 	}
 }
-      
+
 function drawMoon() {
 	image(moonImg, moon.x, moon.y, moon.diameter, moon.diameter);
 }

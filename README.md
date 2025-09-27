@@ -1,36 +1,23 @@
-***The Nightfall Adventure***
+## The Nightfall Adventure
 The journey to return the light to the world.
 
-**Project description:**
-The Nightfall Adventure is a video game developed as part of the Introduction to Programming class. It is intended to be both fun and challenging for the user. I have implemented everything I have learned in the class and a little extra to make it more visually appealing, such as the rotating collectables. That was a challenge, but I was able to complete what I had in mind.
+### Project description:
+The Nightfall Adventure is a video game created during my Introduction to Programming course. Driven by curiosity and creative ambition, I expanded the game beyond the curriculum to create a pixel art video game with animations for a more attractive user experience.   
 
-**Controls**
+## Controls
 `a` Moves to the left
 `d` Moves to the right
 `w` Jumps
 
 *I include a fighting mode to allow the game character to interact with enemies*
-`Arrow left` Activates fighting mode to the left
-`Arrow right` Activates fighting mode to the right
-`Arrow left` + `a` Strike to the left
-`Arrow right` + `d` Strike to the right
+`←` Strike to the left
+`→` Strike to the right
 
 
-**References**
+## References
 -p5.js references (2024). available at https://p5js.org/reference/
--Code Spell Checker Visual Studio Extension (2016). From streetsidesoftware.com
 
-** Microsoft Copilot AI **
--I use Microsoft Copilot AI to supplement my learning process while working on my game project, verifying every 
- piece of information independently. Not a single line of this code was copied and pasted from any AI model.
- *Examples:
--I'm working with javascript and the p5.js library and I have this error in the console. "Uncaught ReferenceError: X is not defined"
- what can I do to correct the error?
--Is this the correct syntax for an if statement?
--I'm working with JavaScript and the p5.js library in my video game project, and I make my collectable rotate 
- but rotate too fast. How can I make it rotate slower?
-
- **Sound Effects**
+ ## Sound Effects
 -Sound effect: jump.mp3
 -Author: Bastianhallo (Freesound)
 -Source: Sound effects by www.pixabay.com
@@ -56,3 +43,9 @@ The Nightfall Adventure is a video game developed as part of the Introduction to
 -Source: Recorded with GarageBand
 -License: N/A
 -Date: February, 2025
+
+## Pixel art
+Every sprite, tile, and animation in The Nightfall Adventure was Created using LibreSprite, an open-source pixel art editor. The background image was generated with Microsoft Copilot AI to evoke the game’s mood and visual depth.
+     
+© 2025 Jonathan Scott. All rights reserved.
+Fonts, icons, and libraries used are open-source or properly licensed. AI-generated assets were created using tools that allow commercial use.

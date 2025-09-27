@@ -25,7 +25,7 @@ function setup() {
 	createCanvas(1024, 576);   
 	floorY = height - 50;  
 	lives = 3;
-	startGame();
+	startGame(); 
 	flagPole.isReached = false;
 }
 
@@ -116,7 +116,6 @@ function draw() {
 }
  
 function keyPressed() {   
-
 	// Controls the animation of the character when keys are pressed.
 	if(isPlummeting || flagPole.isReached) {
 		return; // Exit the function

@@ -6,6 +6,8 @@ let cloudsImg;
 let rockImg;
 let treeImg;
 let GroundImg;
+let enterButton1;
+let enterButton2;
 
 // Global variables
 let frameCounter = 0;
@@ -86,6 +88,10 @@ function loadEnvironment() {
 	bushImg 	  = loadImage("./assets/img/environment/bush.png");
 	huDisplayImg  = loadImage("./assets/img/character/hu-display.png");
 
+	// Title screen button images
+	enterButton1 = loadImage("./assets/img/environment/enter-button1.png")
+	enterButton2 = loadImage("./assets/img/environment/enter-button2.png")
+
 
 	// collectable animation images
 	coinImg1 = loadImage("./assets/img/environment/coin1.png");
@@ -113,22 +119,24 @@ function titleScreen() {
 		// Title
 		push();
 		stroke(0);
-		fill(200);
-		textSize(90);
+		fill(180);
+		textSize(110);
 		strokeWeight(8);
 		textAlign(CENTER)
-		textFont('Times New Roman');
-		text("The Nightfall Adventure", width/2, 140);
+		textFont(titleFont);
+		text("The Nightfall Adventure", width/2, 100);
 
-		textSize(35);
-		text("The journey to return the light to the world", width /2, 190);
+		textSize(46);
+		text("The journey to return the light to the world", width /2, 150);
 		
 
 		// Start Game 
-		textSize(60);
+		textSize(68);
 		strokeWeight(8);
 		fill(185,165,120);
-		text("Press enter to begin the adventure", width / 2, 520 );
+		text("Press enter to start", width / 2, 460 );
+		enterButtonPressed.update(500, floorY - 120)
+		enterButtonPressed.draw(200,200)
 		pop();
 
 		if(welcome) { // Plays the title screen music
@@ -273,8 +281,8 @@ function drawTreasureChest() {
 		treasureChest.isFound = true;		
 
 		if(!treasureSoundPlayed && !treasureChestSound.isPlaying()) { 
-			  treasureChestSound.play();
-			  treasureSoundPlayed = true
+			treasureChestSound.play();
+			treasureSoundPlayed = true
 		}
 	}
 	

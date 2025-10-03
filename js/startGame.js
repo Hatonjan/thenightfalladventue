@@ -174,6 +174,6 @@ function startGame() {
 	fallingAnimation       = new Animation(gameCharX, gameCharY, 9, charFalling1 , charFalling2 , charFalling1 , charFalling2 );
 	fittingLeftAnimation   = new Animation(gameCharX, gameCharY, 3, fittingLeft1 , fittingLeft2 , fittingLeft3 , fittingLeft4 );	 
 	fittingRightAnimation  = new Animation(gameCharX, gameCharY, 3, fittingRight1, fittingRight2, fittingRight3, fittingRight4);
-	buttonPressed          = new Animation(gameCharX, gameCharY, 24, F5button1    ,     F5button2,     F5button1,     F5button2);
-
+	buttonPressed          = new Animation(gameCharX, gameCharY, 24, F5button1   ,     F5button2,     F5button1,     F5button2);
+	enterButtonPressed     = new Animation(gameCharX, gameCharY, 24, enterButton1,  enterButton2, enterButton1,  enterButton2,);
 }

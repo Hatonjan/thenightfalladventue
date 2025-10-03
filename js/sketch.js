@@ -1,12 +1,14 @@
 // Globals
 let pixelFont;
+let titleFont
 
 function preload() {  
 	// Sound formats
 	soundFormats('mp3','wav', 'm4a');  
 	
-	// Load the font
+	// Load the fonts
 	pixelFont = loadFont("./assets/fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf")
+	titleFont = loadFont("./assets/fonts/Jersey_15/Jersey15-Regular.ttf")
 	
 	// Preload the character images
 	loadCharacter();
@@ -22,7 +24,7 @@ function preload() {
 }
  
 function setup() {   
-	createCanvas(1024, 576);   
+	createCanvas(1162, 582);   
 	floorY = height - 50;  
 	lives = 3;
 	startGame(); 
